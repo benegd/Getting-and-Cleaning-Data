@@ -113,3 +113,6 @@ rm(alldata, yfactors, activitycolumnnumber, columnsubset, subjectcolumnnumber)
 
 
 
+## outputting datasplit
+write.table(datasplit, file = "./output.txt", row.names = FALSE)
+
